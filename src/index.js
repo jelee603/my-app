@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Game from './components/Game';
 import * as serviceWorker from './serviceWorker';
+// import App from './App'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <Game />,
   document.getElementById('root')
 );
 
